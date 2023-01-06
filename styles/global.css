@@ -30,38 +30,9 @@ header .logo {
     height: 100%;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.price-column {
-    height: 400px;
-    width: 120px;
-    border-color: blueviolet;
-    background-color: #006400;
-    border-style: solid;
-    border-width: 5px;
-    margin: 10px;
-    margin-top: 120px;
-    flex-wrap: wrap;
-}
-
 .plan-typeB {
     height: 100px;
-    width: 50%;
-    color: crimson;
-    font-weight: bolder;
-    border-style: solid;
-    border-color: black;
-    background-color: blueviolet;
-    margin: 2px;
-    margin-top: 200px;
-}
-
-.plan-typeS {
-    height: 100px;
-    width: 50%;
+    width: 370px;
     color: crimson;
     font-weight: bolder;
     border-style: solid;
@@ -71,7 +42,55 @@ main {
     margin-top: 2px;
 }
 
-p {
-    padding: 20px;
+.plan-typeS {
+    height: 100px;
+    width: 370px;
+    color: crimson;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    background-color: blueviolet;
+    margin: 2px;
+    margin-top: 2px;
+}
+
+.types {
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price-column {
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 400px;
+    width: 150px;
+    border-color: blueviolet;
+    background-color: #006400;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.buy-now {
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.buy {
+    display: flex;
+    margin-right: 60px;
+    margin-left: 438px;
 }
