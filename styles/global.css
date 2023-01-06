@@ -33,3 +33,13 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.price-column {
+    height: 50px;
+    width: 50px;
+    border-color: blueviolet;
+    background-color: #006400;
+    border-style: solid;
+    margin-bottom: 10px;
+    border-width: 5px;
+}
