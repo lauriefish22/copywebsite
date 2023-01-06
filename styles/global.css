@@ -31,15 +31,47 @@ header .logo {
 }
 
 main {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .price-column {
-    height: 50px;
-    width: 50px;
+    height: 400px;
+    width: 120px;
     border-color: blueviolet;
     background-color: #006400;
     border-style: solid;
-    margin-bottom: 10px;
     border-width: 5px;
+    margin: 10px;
+    margin-top: 120px;
+    flex-wrap: wrap;
+}
+
+.plan-typeB {
+    height: 100px;
+    width: 50%;
+    color: crimson;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    background-color: blueviolet;
+    margin: 2px;
+    margin-top: 200px;
+}
+
+.plan-typeS {
+    height: 100px;
+    width: 50%;
+    color: crimson;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    background-color: blueviolet;
+    margin: 2px;
+    margin-top: 2px;
+}
+
+p {
+    padding: 20px;
+    display: flex;
 }
