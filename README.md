@@ -1,1 +1,1 @@
-![wireframe of "copywebsite"](./assets/wireframe.png)
+![wireframe of copywebsite](./assets/wireframe.png)
