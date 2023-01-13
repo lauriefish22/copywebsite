@@ -30,6 +30,100 @@ header .logo {
     height: 100%;
 }
 
-main {
-    padding: 20px;
+.plan-typeB {
+    height: 100px;
+    width: 310px;
+    color: rgb(249, 249, 252);
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(43, 46, 220);
+    margin: 2px;
+    margin-top: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    padding-left: 10px;
+}
+
+.plan-typeS {
+    height: 100px;
+    width: 460px;
+    color: rgb(249, 249, 252);
+    font-weight: bolder;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(43, 46, 220);
+    margin: 2px;
+    margin-top: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    padding-left: 10px;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.price-column {
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 400px;
+    width: 150px;
+    border-color: rgb(43, 46, 220);
+    background-color: azure;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 75px;
+}
+.buy-now {
+    height: 50px;
+    width: 150px;
+    background-color: #fff700;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 25px;
+    padding-top: 5px;
+    color: blue;
+}
+.buy {
+    display: flex;
+    margin-right: 290px;
+    margin-left: 555px;
+    position: static;
+}
+
+.table {
+    border-right: 0px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 280px;
+    line-height: 40px;
+    width: 890px;
+}
+
+td {
+    border-bottom: 1px solid red;
+    font-size: 20px;
+    column-width: 200px;
 }
